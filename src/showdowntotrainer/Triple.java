@@ -28,7 +28,7 @@ public class Triple {
     {
         if (in.equals(value1)) return value2;
         else if (in.equals(value2)) return value1;
-        return "No Equivalent Found";
+        return in;
     }
     
     public int getID()
